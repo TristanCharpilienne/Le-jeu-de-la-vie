@@ -19,3 +19,7 @@ Si une case est entourée de 0 ou 1 voisine occupée, la case est vide à la gé
 (mort par isolement).
 Si une case est entourée de 3 voisines occupées et plus, la case est vide à la génération
 suivante (mort par surpopulation)
+
+Problèmes que je peux rencontrer :
+- Je peux faire la grille facilement, mais je peux avoir du mal à programmer les règles du jeu
+- 
