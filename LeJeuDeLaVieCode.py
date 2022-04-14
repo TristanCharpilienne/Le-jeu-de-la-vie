@@ -1,6 +1,7 @@
 from tkinter import *
 
-def damier(): #fonction dessinant le tableau
+def damier():
+    """fonction dessinant le tableau"""
     ligne_vert()
     ligne_hor()
         
@@ -16,38 +17,42 @@ def ligne_hor():
         can1.create_line(0,c_y,width,c_y,width=1,fill='black')
         c_y+=c
 
-def click_gauche(event): #fonction rendant vivante la cellule cliquée donc met la valeur 1 pour la cellule cliquée au dico_case
+def click_gauche(event):
+    """ fonction rendant vivante la cellule cliquée donc met la valeur 1 pour la cellule cliquée au dico_case
+    """
     x = event.x -(event.x%c)
     y = event.y -(event.y%c)
     can1.create_rectangle(x, y, x+c, y+c, fill='black')
     dico_case[x,y]=1
 
-def click_droit(event): #fonction tuant la cellule cliquée donc met la valeur 0 pour la cellule cliquée au dico_case
+def click_droit(event):
+    """fonction tuant la cellule cliquée donc met la valeur 0 pour la cellule cliquée au dico_case"""
     x = event.x -(event.x%c)
     y = event.y -(event.y%c)
     can1.create_rectangle(x, y, x+c, y+c, fill='white')
     dico_case[x,y]=0
 
-def change_vit(event): #fonction pour changer la vitesse(l'attente entre chaque étape)
+def change_vit(event):
+    """fonction pour changer la vitesse(l'attente entre chaque étape)"""
     global vitesse
     vitesse = int(eval(entree.get()))
     print(vitesse)
 
 
 def go():
-    "démarrage de l'animation"
+    """démarrage de l'animation"""
     global flag
     if flag ==0:
         flag =1
-        #play()
+        """play()"""
         
 def stop():
-    "arrêt de l'animation"
+    """arrêt de l'animation"""
     global flag    
     flag =0
 
 def erase():
-    "effacement de la grille"
+    """effacement de la grille"""
     global flag    
     flag =0
     for k,v in dico_case.items():
@@ -109,3 +114,4 @@ chaine.configure(text = "Attente entre chaque étape (ms) :")
 chaine.pack(side =RIGHT)
 
 fen1.mainloop()
+
