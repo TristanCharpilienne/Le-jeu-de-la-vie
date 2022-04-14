@@ -25,4 +25,5 @@ Problèmes que je peux rencontrer :
 - je peux avoir du mal à programmer un compteur du nombre de la population.
 
 
-MVP: Règles du jeu + grille + boutons Go! et Stop12
+MVP: Règles du jeu + grille + boutons Go! et Stop!
+
