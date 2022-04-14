@@ -25,5 +25,8 @@ Problèmes que je peux rencontrer :
 - je peux avoir du mal à programmer un compteur du nombre de la population.
 
 
-MVP: Règles du jeu + grille + boutons Go! et Stop!
+MVP: Règles du jeu + grille + boutons Go! et Stop
 
+Cahier journal:
+7/04/22 : création de la grille + bouton Go! + Stop + Erase
+14/04/2022 : nombreux problèmes d'indentations résolus + mise en place du cahier journal :)
