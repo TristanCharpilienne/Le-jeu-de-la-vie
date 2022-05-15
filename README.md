@@ -1,8 +1,8 @@
 **Le jeu de la vie :**  
-Quel est le jeu de la vie ?  
+Qu'est ce que le jeu de la vie ?  
 
 Le Jeu de la vie est un « jeu à zéro joueur », puisqu'il ne nécessite aucune intervention du joueur lors de son déroulement. 
-Il s'agit d'un automate cellulaire, un modèle où chaque état conduit mécaniquement à l'état suivant à partir de règles pré-établies.  
+Il s'agit d'un automate cellulaire imaginé par John Horton Conway en 1970, un modèle où chaque état conduit mécaniquement à l'état suivant à partir de règles pré-établies.  
 
 REGLES DU JEU:  
 
@@ -30,3 +30,7 @@ MVP: Règles du jeu + grille + boutons Go! et Stop
 Cahier journal:
 7/04/22 : création de la grille + bouton Go! + Stop + Erase
 14/04/2022 : nombreux problèmes d'indentations résolus + mise en place du cahier journal :)
+16/04/2022 : création de la fonction "vitesse de l'animation en ms".
+19/04/2022 : mise en place des règles (aide d'une vidéo)
+24/04/2022 : fonction "taille des cellules" pour changer la forme du tableau et des cellules.
+
