@@ -34,3 +34,6 @@ Cahier journal:
 19/04/2022 : mise en place des règles (aide d'une vidéo)
 24/04/2022 : fonction "taille des cellules" pour changer la forme du tableau et des cellules.
 
+Sources/aides : 
+https://www.youtube.com/watch?v=S-W0NX97DB0 Explications
+https://www.youtube.com/watch?v=FTXNpGa6fqs Explication plus 1-2 fonctions dont je me suis inspiré.
